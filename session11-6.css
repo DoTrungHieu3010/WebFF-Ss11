@@ -1,0 +1,123 @@
+* {
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+  .body-tablet {
+    display: none;
+  }
+  .header-color {
+    padding: 10px;
+    background-color: #5995db;
+  }
+  .section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+  }
+  .header {
+    background-color: #b2d6ff;
+    height: 60px;
+  }
+  .features {
+    display: flex;
+    justify-content: center;
+  }
+  .feature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    width: 33.33%;
+    height: 90px;
+  }
+  .feature1 {
+    background-color: #f5cf8d;
+  }
+  .feature2 {
+    background-color: #c8c6fa;
+  }
+  .feature3 {
+    background-color: #f09a9d;
+  }
+  .signup {
+    background-color: #d7e9fe;
+    height: 30px;
+  }
+  .content {
+    background-color: #ebedf0;
+    height: 100px;
+  }
+  @media screen and (max-width: 1200px) {
+    .body-desktop {
+      display: none;
+    }
+    .header {
+      height: 60px;
+    }
+    .body-tablet {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .content {
+      width: 100%;
+    }
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+    .feature {
+      width: 50%;
+      height: 60px;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    .body-desktop {
+      display: none;
+    }
+    .header {
+      height: 60px;
+    }
+    .body-tablet {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .content {
+      width: 100%;
+    }
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+    .feature {
+      width: 50%;
+      height: 60px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .body-desktop {
+      display: none;
+    }
+    .header {
+      height: 60px;
+    }
+    .body-tablet {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .content {
+      width: 100%;
+    }
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+    .feature {
+      width: 100%;
+      height: 60px;
+    }
+  }
